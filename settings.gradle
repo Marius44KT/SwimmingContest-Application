@@ -1,0 +1,10 @@
+rootProject.name = "concursInot"
+include 'concursModel'
+include 'concursPersistence'
+include 'concursServer'
+include 'concursServices'
+include 'concursNetworking'
+include 'concursClientFX'
+include 'RestAPI'
+include 'concursRestServices'
+

@@ -1,0 +1,73 @@
+syntax="proto3";
+package com.example;
+
+option java_package = "com.example.networking.protobuff";
+option java_outer_classname = "AppProtobuffs";
+option csharp_namespace = "networking.AppProtobuffs";
+
+message DistantaP{
+  enum Type { dist50m = 0; dist200m = 1; dist800m = 2; dist1500m=3 ;}
+}
+
+
+message StilP{
+  enum Type { liber = 0; spate = 1; flutur = 2; mixt=3 ;}
+}
+
+
+message AngajatP{
+  string email=1;
+  string parola=2;
+}
+
+
+message PersoanaP{
+  string nume=1;
+  int32 varsta=2;
+}
+
+
+message ParticipantDTOP{
+  string nume=1;
+  int32 varsta=2;
+  string stil=3;
+  string distanta=4;
+}
+
+
+message ParticipantP{
+  int64 idPersoana=1;
+  StilP stil=2;
+  DistantaP distanta=3;
+}
+
+
+
+
+
+
+message RequestP {
+  enum Type { LOGIN=0;LOGOUT=1;GET_PARTICIPANTS=2;GET_CONTEST_PARTICIPANTS=3;GET_NUMBER_OF_PARTICIPANTS=4;ADD_PARTICIPANT=5;}
+
+  // Identifies which request is filled in.
+  Type type = 1;
+
+  // One of the following will be filled in, depending on the type.
+  string str=2;
+  AngajatP angajat=3;
+  ParticipantDTOP participantDTO=4;
+}
+
+message ResponseP{
+   enum Type { OK=0;ERROR=1;UPDATE=2;}
+
+     // Identifies which request is filled in.
+     Type type = 1;
+
+     // One of the following will be filled in, depending on the type.
+     bool boolean=2;
+     string message=3;
+     repeated ParticipantDTOP all=4;
+     repeated ParticipantDTOP searched=5;
+     repeated int32 statistics=6;
+}

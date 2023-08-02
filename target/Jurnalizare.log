@@ -1,0 +1,967 @@
+21 Mar 2023 22:05:08,576 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 25 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot}
+21 Mar 2023 22:05:08,582 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 86 save - com.example.concursinot.Entities.Persoana@5dd1c9f2
+21 Mar 2023 22:05:09,032 ERROR com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 98 save - org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "participanti_pkey"
+  Detail: Key (id)=(0) already exists.
+21 Mar 2023 22:05:09,033 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 86 save - com.example.concursinot.Entities.Persoana@44828f6b
+21 Mar 2023 22:05:09,119 ERROR com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 98 save - org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "participanti_pkey"
+  Detail: Key (id)=(1) already exists.
+21 Mar 2023 22:05:09,120 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 86 save - com.example.concursinot.Entities.Persoana@2dbe250d
+21 Mar 2023 22:05:09,188 ERROR com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 98 save - org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "participanti_pkey"
+  Detail: Key (id)=(2) already exists.
+22 Mar 2023 12:32:21,270 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 25 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot}
+22 Mar 2023 12:32:21,277 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 89 save - com.example.concursinot.Entities.Persoana@5dd1c9f2
+22 Mar 2023 12:32:21,937 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 104 save - Exit
+22 Mar 2023 12:32:21,937 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 89 save - com.example.concursinot.Entities.Persoana@546ccad7
+22 Mar 2023 12:32:22,030 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 104 save - Exit
+22 Mar 2023 12:32:22,030 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 89 save - com.example.concursinot.Entities.Persoana@5357c287
+22 Mar 2023 12:32:22,134 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 104 save - Exit
+22 Mar 2023 12:32:22,137 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 25 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot}
+22 Mar 2023 12:32:22,140 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 124 save - Enter
+22 Mar 2023 12:32:22,209 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 140 save - Exit
+22 Mar 2023 12:32:22,210 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 124 save - Enter
+22 Mar 2023 12:32:22,284 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 140 save - Exit
+22 Mar 2023 12:32:22,284 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 124 save - Enter
+22 Mar 2023 12:32:22,351 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 140 save - Exit
+22 Mar 2023 12:32:22,351 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 63 findAllByCompetition - Enter
+22 Mar 2023 12:32:22,477 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 87 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participantcipant@31e75d13, 1=com.example.concursinot.Entities.Participantcipant@a5b0b86})
+22 Mar 2023 13:06:54,188 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot}
+22 Mar 2023 13:06:54,197 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 25 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot}
+22 Mar 2023 13:06:54,198 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 89 save - com.example.concursinot.Entities.Persoana@2445445a
+22 Mar 2023 13:06:54,957 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 104 save - Exit
+22 Mar 2023 13:06:54,958 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 89 save - com.example.concursinot.Entities.Persoana@24d4d7c9
+22 Mar 2023 13:06:55,026 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 104 save - Exit
+22 Mar 2023 13:06:55,027 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 89 save - com.example.concursinot.Entities.Persoana@f0e995e
+22 Mar 2023 13:06:55,155 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 104 save - Exit
+22 Mar 2023 13:06:55,159 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 25 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot}
+22 Mar 2023 13:06:55,163 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 124 save - Enter
+22 Mar 2023 13:06:55,278 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 140 save - Exit
+22 Mar 2023 13:06:55,278 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 124 save - Enter
+22 Mar 2023 13:06:55,350 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 140 save - Exit
+22 Mar 2023 13:06:55,351 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 124 save - Enter
+22 Mar 2023 13:06:55,432 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 140 save - Exit
+22 Mar 2023 13:06:55,432 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 63 findAllByCompetition - Enter
+22 Mar 2023 13:06:55,540 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 87 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participantcipant@339bf286, 1=com.example.concursinot.Entities.Participantcipant@38be305c})
+25 Mar 2023 11:48:50,207 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot}
+25 Mar 2023 11:48:50,214 TRACE com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 86 save - com.example.concursinot.Entities.Angajat@5dd1c9f2
+25 Mar 2023 11:48:51,051 TRACE com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 101 save - Exit
+25 Mar 2023 11:48:51,054 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 25 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot}
+25 Mar 2023 11:48:51,056 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 63 findAllByCompetition - Enter
+25 Mar 2023 11:48:51,469 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 87 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participantcipant@78fb9a67, 1=com.example.concursinot.Entities.Participantcipant@73ff4fae})
+25 Mar 2023 12:59:40,896 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot}
+25 Mar 2023 12:59:40,904 TRACE com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 86 save - com.example.concursinot.Entities.Angajat@324a0017
+25 Mar 2023 12:59:41,607 TRACE com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 101 save - Exit
+25 Mar 2023 12:59:41,609 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 25 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot}
+25 Mar 2023 12:59:41,611 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 63 findAllByCompetition - Enter
+25 Mar 2023 12:59:41,749 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 87 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participantcipant@38be305c, 1=com.example.concursinot.Entities.Participantcipant@269f4bad})
+25 Mar 2023 16:28:58,566 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 16:28:58,573 TRACE com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 86 save - com.example.concursinot.Entities.Angajat@324a0017
+25 Mar 2023 16:28:59,130 TRACE com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 101 save - Exit
+25 Mar 2023 16:28:59,133 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 16:28:59,134 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 86 save - com.example.concursinot.Entities.Persoana@3829ac1
+25 Mar 2023 16:28:59,248 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 101 save - Exit
+25 Mar 2023 16:28:59,248 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 86 save - com.example.concursinot.Entities.Persoana@4baf352a
+25 Mar 2023 16:28:59,428 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 101 save - Exit
+25 Mar 2023 16:28:59,428 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 86 save - com.example.concursinot.Entities.Persoana@22d6f11
+25 Mar 2023 16:28:59,502 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 101 save - Exit
+25 Mar 2023 16:28:59,505 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 16:28:59,508 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 123 save - Enter
+25 Mar 2023 16:28:59,604 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 139 save - Exit
+25 Mar 2023 16:28:59,605 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 123 save - Enter
+25 Mar 2023 16:28:59,675 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 139 save - Exit
+25 Mar 2023 16:28:59,675 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 123 save - Enter
+25 Mar 2023 16:28:59,747 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 139 save - Exit
+25 Mar 2023 16:28:59,747 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAllByCompetition - Enter
+25 Mar 2023 16:28:59,928 ERROR com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 83 findAllByCompetition - org.postgresql.util.PSQLException: ERROR: relation "probe" does not exist
+  Position: 72
+25 Mar 2023 16:30:41,812 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 16:30:41,819 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 16:30:41,823 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 16:30:41,825 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAllByCompetition - Enter
+25 Mar 2023 16:30:42,373 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 86 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@275fe372, 1=com.example.concursinot.Entities.Participant@40e10ff8})
+25 Mar 2023 16:36:40,039 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 16:36:40,046 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 16:36:40,050 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 16:36:40,051 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAllByCompetition - Enter
+25 Mar 2023 16:36:40,682 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 86 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@5d018107, 1=com.example.concursinot.Entities.Participant@6cbcf243})
+25 Mar 2023 18:07:45,211 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 18:07:45,219 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 18:07:45,221 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 18:09:25,259 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 18:09:25,266 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 18:09:25,270 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 18:10:03,880 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 18:10:03,885 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 18:10:03,888 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 18:10:14,752 TRACE com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 86 save - com.example.concursinot.Entities.Angajat@5cab13ba
+25 Mar 2023 18:10:14,852 TRACE com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 101 save - Exit
+25 Mar 2023 18:10:57,639 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 18:10:57,646 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 18:10:57,648 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:11:29,753 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:11:29,761 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:11:29,764 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:11:39,663 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 94 findAll - Enter
+25 Mar 2023 19:11:39,883 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:39,955 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:39,956 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:40,023 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:40,112 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:40,196 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:40,197 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:40,266 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:40,267 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:40,450 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:40,451 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:40,522 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:40,528 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:40,602 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:40,603 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:40,677 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:40,915 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:41,005 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:41,007 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:41,086 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:41,087 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:41,159 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:41,160 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:41,233 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:41,234 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:41,303 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:41,304 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:41,375 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:41,376 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:41,444 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:41,445 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:41,508 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:41,509 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:41,573 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:41,574 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:41,638 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:41,639 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:41,816 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:41,816 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:41,910 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:41,914 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:41,981 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:41,982 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:42,053 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:42,063 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:42,238 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:42,239 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:42,349 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:42,357 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:42,440 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:11:42,440 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:11:42,505 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:18,340 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:12:18,346 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:12:18,349 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:12:29,073 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 94 findAll - Enter
+25 Mar 2023 19:12:29,307 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:29,379 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:29,380 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:29,448 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:29,540 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:29,638 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:29,639 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:29,706 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:29,707 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:29,776 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:29,776 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:29,864 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:29,868 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:29,940 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:29,941 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:30,013 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:30,189 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:30,256 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:30,256 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:30,324 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:30,324 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:30,390 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:30,391 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:30,456 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:30,457 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:30,552 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:30,553 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:30,620 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:30,621 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:30,690 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:30,690 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:30,757 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:30,758 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:30,822 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:30,822 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:30,887 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:30,888 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:30,951 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:30,952 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:31,052 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:31,055 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:31,121 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:31,122 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:31,286 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:31,293 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:31,470 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:31,471 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:31,536 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:31,543 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:31,609 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:12:31,610 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:12:31,678 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:13,242 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:16:13,249 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:16:13,252 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:16:22,010 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 94 findAll - Enter
+25 Mar 2023 19:16:22,203 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:22,278 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:22,278 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:22,347 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:22,435 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:22,516 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:22,517 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:22,591 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:22,591 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:22,660 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:22,661 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:22,730 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:22,735 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:22,850 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:22,851 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:22,923 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:23,110 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:23,179 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:23,180 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:23,282 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:23,282 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:23,472 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:23,472 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:23,643 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:23,644 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:23,813 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:23,814 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:23,919 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:23,920 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:23,987 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:23,988 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:24,062 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:24,062 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:24,127 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:24,128 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:24,197 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:24,198 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:24,264 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:24,265 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:24,329 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:24,332 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:24,424 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:24,425 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:24,505 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:24,512 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:24,579 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:24,579 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:24,664 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:24,671 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:24,745 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:24,746 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:16:24,840 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:16:55,615 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:16:55,621 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:16:55,623 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:17:10,519 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 94 findAll - Enter
+25 Mar 2023 19:17:10,733 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:10,805 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:10,805 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:10,874 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:10,971 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:11,044 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:11,045 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:11,185 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:11,186 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:11,270 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:11,271 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:11,340 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:11,345 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:11,423 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:11,424 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:11,493 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:11,657 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:11,739 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:11,739 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:11,827 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:11,828 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:11,910 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:11,911 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:12,001 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:12,002 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:12,067 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:12,068 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:12,136 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:12,138 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:12,203 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:12,204 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:12,271 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:12,271 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:12,344 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:12,345 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:12,460 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:12,462 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:12,526 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:12,526 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:12,614 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:12,619 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:12,690 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:12,690 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:12,754 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:12,762 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:12,831 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:12,832 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:12,897 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:12,904 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:12,971 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:17:12,972 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:17:13,039 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:31,544 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:19:31,550 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:19:31,552 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:19:41,766 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 94 findAll - Enter
+25 Mar 2023 19:19:41,960 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:42,029 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:42,030 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:42,098 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:42,153 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:42,270 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:42,270 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:42,337 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:42,338 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:42,404 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:42,404 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:42,469 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:42,475 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:42,564 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:42,565 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:42,639 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:42,799 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:42,874 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:42,875 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:42,943 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:42,944 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:43,009 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:43,010 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:43,076 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:43,078 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:43,142 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:43,142 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:43,207 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:43,209 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:43,291 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:43,292 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:43,362 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:43,363 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:43,426 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:43,427 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:43,491 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:43,492 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:43,558 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:43,558 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:43,629 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:43,640 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:43,706 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:43,707 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:43,807 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:43,816 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:43,892 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:43,892 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:43,956 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:43,963 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:44,058 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:19:44,058 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:19:44,251 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:13,041 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:29:13,051 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:29:13,053 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:29:23,371 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 94 findAll - Enter
+25 Mar 2023 19:29:23,585 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:23,712 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:23,713 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:23,877 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:23,929 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:24,005 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:24,006 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:24,072 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:24,072 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:24,148 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:24,148 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:24,216 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:24,220 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:24,291 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:24,291 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:24,359 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:24,516 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:24,586 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:24,587 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:24,657 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:24,658 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:24,723 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:24,723 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:24,787 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:24,788 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:24,850 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:24,851 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:24,918 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:24,920 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:24,986 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:24,987 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:25,068 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:25,069 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:25,136 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:25,137 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:25,203 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:25,204 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:25,274 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:25,274 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:25,339 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:25,343 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:25,408 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:25,408 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:25,473 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:25,480 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:25,548 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:25,548 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:25,614 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:25,622 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:25,686 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:29:25,686 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:29:25,752 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:40:37,183 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:40:37,189 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:40:37,191 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:41:00,630 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:41:00,636 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:41:00,639 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:45:02,276 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:45:02,282 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:45:02,284 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:48:16,932 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:48:16,937 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:48:16,940 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 19:48:25,573 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 94 findAll - Enter
+25 Mar 2023 19:48:25,815 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:25,927 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:25,928 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:25,993 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:26,050 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:26,121 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:26,121 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:26,188 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:26,189 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:26,254 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:26,255 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:26,354 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:26,357 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:26,424 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:26,425 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:26,490 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:26,666 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:26,736 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:26,736 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:26,806 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:26,807 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:26,874 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:26,875 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:26,937 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:26,938 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:27,103 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:27,104 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:27,277 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:27,278 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:27,344 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:27,345 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:27,460 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:27,460 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:27,634 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:27,635 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:27,701 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:27,702 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:27,768 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:27,769 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:27,836 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:27,839 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:27,903 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:27,903 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:27,996 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:28,002 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:28,166 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:28,167 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:28,230 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:28,236 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:28,300 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:28,301 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:28,364 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:53,362 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 94 findAll - Enter
+25 Mar 2023 19:48:53,436 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:53,608 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:53,608 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:53,673 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:53,681 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:53,748 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:53,749 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:53,819 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:53,819 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:53,886 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:53,886 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:53,955 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:53,957 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:54,023 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:54,024 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:54,090 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:54,136 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:54,201 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:54,202 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:54,278 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:54,279 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:54,341 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:54,341 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:54,547 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:54,547 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:54,631 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:54,632 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:54,696 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:54,697 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:54,762 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:54,762 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:54,827 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:54,827 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:54,934 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:54,935 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:55,000 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:55,001 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:55,078 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:55,078 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:55,143 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:55,145 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:55,210 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:55,211 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:55,275 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:55,279 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:55,344 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:55,344 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:55,409 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:55,412 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:55,479 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 19:48:55,479 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 30 findOne - Enter
+25 Mar 2023 19:48:55,557 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 43 findOne - Exit
+25 Mar 2023 20:04:59,336 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:04:59,341 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:04:59,344 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:05:08,432 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 94 findAll - Enter
+25 Mar 2023 20:05:08,513 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:05:08,583 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@57469220, 1=com.example.concursinot.Entities.Persoana@67075573, 2=com.example.concursinot.Entities.Persoana@459cc7f9})
+25 Mar 2023 20:05:21,286 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 94 findAll - Enter
+25 Mar 2023 20:05:21,354 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:05:21,556 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@4843f053, 1=com.example.concursinot.Entities.Persoana@39db76c3, 2=com.example.concursinot.Entities.Persoana@147f4286})
+25 Mar 2023 20:24:41,907 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:24:41,912 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:24:41,915 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:24:49,796 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 94 findAll - Enter
+25 Mar 2023 20:24:49,867 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:24:49,938 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@7580f45, 1=com.example.concursinot.Entities.Persoana@3cc874a5, 2=com.example.concursinot.Entities.Persoana@3963ba3a})
+25 Mar 2023 20:25:56,730 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:25:56,737 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:25:56,739 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:26:05,181 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 94 findAll - Enter
+25 Mar 2023 20:26:05,263 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:26:05,335 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@4bc06d45, 1=com.example.concursinot.Entities.Persoana@45eb8cfc, 2=com.example.concursinot.Entities.Persoana@27122e21})
+25 Mar 2023 20:27:52,003 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:27:52,009 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:27:52,011 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:28:01,157 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 94 findAll - Enter
+25 Mar 2023 20:28:01,227 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:28:01,333 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@57469220, 1=com.example.concursinot.Entities.Persoana@67075573, 2=com.example.concursinot.Entities.Persoana@459cc7f9})
+25 Mar 2023 20:28:09,942 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 146 findOneByNumeAndVarsta - Enter
+25 Mar 2023 20:28:10,443 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 86 save - com.example.concursinot.Entities.Persoana@6cb0b450
+25 Mar 2023 20:28:10,575 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 101 save - Exit
+25 Mar 2023 20:28:10,743 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 123 save - Enter
+25 Mar 2023 20:28:10,822 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 139 save - Exit
+25 Mar 2023 20:28:10,825 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 94 findAll - Enter
+25 Mar 2023 20:28:10,891 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:28:10,956 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@6b298bfd, 1=com.example.concursinot.Entities.Persoana@69e58f45, 2=com.example.concursinot.Entities.Persoana@9ea41d, 3=com.example.concursinot.Entities.Persoana@636cf27f})
+25 Mar 2023 20:29:44,396 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:29:44,402 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:29:44,404 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:29:57,771 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 94 findAll - Enter
+25 Mar 2023 20:29:57,895 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:29:57,966 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@57469220, 1=com.example.concursinot.Entities.Persoana@67075573, 2=com.example.concursinot.Entities.Persoana@459cc7f9, 3=com.example.concursinot.Entities.Persoana@7416892a})
+25 Mar 2023 20:30:11,470 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 146 findOneByNumeAndVarsta - Enter
+25 Mar 2023 20:30:11,541 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 159 findOneByNumeAndVarsta - Exit
+25 Mar 2023 20:30:11,609 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 123 save - Enter
+25 Mar 2023 20:30:11,679 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 139 save - Exit
+25 Mar 2023 20:30:11,680 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 94 findAll - Enter
+25 Mar 2023 20:30:11,747 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:30:11,816 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@24a8f736, 1=com.example.concursinot.Entities.Persoana@6b298bfd, 2=com.example.concursinot.Entities.Persoana@69e58f45, 3=com.example.concursinot.Entities.Persoana@9ea41d})
+25 Mar 2023 20:53:28,639 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:53:28,646 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:53:28,649 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:53:38,609 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:53:38,680 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:38,788 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@430c4bc0, 1=com.example.concursinot.Entities.Persoana@16f6f63f, 2=com.example.concursinot.Entities.Persoana@634dad0c, 3=com.example.concursinot.Entities.Persoana@4bd539d1})
+25 Mar 2023 20:53:49,570 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:53:49,639 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@63e8fe3b, 1=com.example.concursinot.Entities.Participant@445b5403, 3=com.example.concursinot.Entities.Participant@59335d57, 4=com.example.concursinot.Entities.Participant@29c9b3a7})
+25 Mar 2023 20:53:49,639 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:49,709 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@d749983, 1=com.example.concursinot.Entities.Persoana@13912f62, 2=com.example.concursinot.Entities.Persoana@508b11a2, 3=com.example.concursinot.Entities.Persoana@343bd49f})
+25 Mar 2023 20:53:49,712 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:53:49,779 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:49,847 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@75a2de2, 1=com.example.concursinot.Entities.Persoana@fd42aaa, 2=com.example.concursinot.Entities.Persoana@65a188e3, 3=com.example.concursinot.Entities.Persoana@2f19cd76})
+25 Mar 2023 20:53:55,981 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:53:56,094 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@6d9ac35b, 1=com.example.concursinot.Entities.Participant@12be553, 3=com.example.concursinot.Entities.Participant@6bd75089, 4=com.example.concursinot.Entities.Participant@22361939})
+25 Mar 2023 20:53:56,094 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:56,263 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@190d963f, 1=com.example.concursinot.Entities.Persoana@47d2e930, 2=com.example.concursinot.Entities.Persoana@1650ba5b, 3=com.example.concursinot.Entities.Persoana@4bd9679})
+25 Mar 2023 20:53:56,264 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:53:56,381 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:56,448 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@717444bf, 1=com.example.concursinot.Entities.Persoana@21bfb8c8, 2=com.example.concursinot.Entities.Persoana@32ae5cc6, 3=com.example.concursinot.Entities.Persoana@5a481ab4})
+25 Mar 2023 20:53:56,461 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:53:56,529 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@9cafcfe, 1=com.example.concursinot.Entities.Participant@556f6cf7, 3=com.example.concursinot.Entities.Participant@15e742f0, 4=com.example.concursinot.Entities.Participant@f607742})
+25 Mar 2023 20:53:56,530 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:56,595 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@5193475c, 1=com.example.concursinot.Entities.Persoana@7fb5914d, 2=com.example.concursinot.Entities.Persoana@50eaac89, 3=com.example.concursinot.Entities.Persoana@5cbc0bb1})
+25 Mar 2023 20:53:56,597 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:53:56,667 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:56,732 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@17de0edd, 1=com.example.concursinot.Entities.Persoana@4432da92, 2=com.example.concursinot.Entities.Persoana@4139b879, 3=com.example.concursinot.Entities.Persoana@7d64c26c})
+25 Mar 2023 20:53:56,746 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:53:56,818 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@59b78e67, 1=com.example.concursinot.Entities.Participant@687af5bb, 3=com.example.concursinot.Entities.Participant@6161a507, 4=com.example.concursinot.Entities.Participant@5501770e})
+25 Mar 2023 20:53:56,818 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:56,883 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@30a01f7f, 1=com.example.concursinot.Entities.Persoana@f48f3fd, 2=com.example.concursinot.Entities.Persoana@636d368e, 3=com.example.concursinot.Entities.Persoana@3d0a94ea})
+25 Mar 2023 20:53:56,885 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:53:56,950 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:57,122 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@de12fd3, 1=com.example.concursinot.Entities.Persoana@45fef289, 2=com.example.concursinot.Entities.Persoana@4fad65fe, 3=com.example.concursinot.Entities.Persoana@26691525})
+25 Mar 2023 20:53:57,140 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:53:57,210 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@2272298c, 1=com.example.concursinot.Entities.Participant@10aafdf1, 3=com.example.concursinot.Entities.Participant@348cf88f, 4=com.example.concursinot.Entities.Participant@5aa20306})
+25 Mar 2023 20:53:57,210 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:57,275 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@692f6f97, 1=com.example.concursinot.Entities.Persoana@2ead5236, 2=com.example.concursinot.Entities.Persoana@7db68fec, 3=com.example.concursinot.Entities.Persoana@37c6196f})
+25 Mar 2023 20:53:57,276 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:53:57,341 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:57,404 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@25879bd7, 1=com.example.concursinot.Entities.Persoana@617f41b3, 2=com.example.concursinot.Entities.Persoana@28ff7b9f, 3=com.example.concursinot.Entities.Persoana@2ff5028e})
+25 Mar 2023 20:53:57,416 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:53:57,483 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@36b56d84, 1=com.example.concursinot.Entities.Participant@2ddcd038, 3=com.example.concursinot.Entities.Participant@7eac659f, 4=com.example.concursinot.Entities.Participant@794ae9b6})
+25 Mar 2023 20:53:57,483 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:57,547 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@648e6256, 1=com.example.concursinot.Entities.Persoana@2f9833ef, 2=com.example.concursinot.Entities.Persoana@32853b1e, 3=com.example.concursinot.Entities.Persoana@1c2c63a1})
+25 Mar 2023 20:53:57,548 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:53:57,612 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:57,675 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@b273ea0, 1=com.example.concursinot.Entities.Persoana@654e7360, 2=com.example.concursinot.Entities.Persoana@7e08e91c, 3=com.example.concursinot.Entities.Persoana@1c6bc17})
+25 Mar 2023 20:53:57,690 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:53:57,760 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@332640b1, 1=com.example.concursinot.Entities.Participant@25e5f0c6, 3=com.example.concursinot.Entities.Participant@1c9cad6f, 4=com.example.concursinot.Entities.Participant@280e9cef})
+25 Mar 2023 20:53:57,760 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:57,825 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@29ac7297, 1=com.example.concursinot.Entities.Persoana@2345c4a4, 2=com.example.concursinot.Entities.Persoana@5acbe276, 3=com.example.concursinot.Entities.Persoana@67ee424})
+25 Mar 2023 20:53:57,826 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:53:57,889 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:58,060 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@4c8c16b6, 1=com.example.concursinot.Entities.Persoana@41e18b67, 2=com.example.concursinot.Entities.Persoana@443c197f, 3=com.example.concursinot.Entities.Persoana@35929a18})
+25 Mar 2023 20:53:58,074 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:53:58,144 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@190703ba, 1=com.example.concursinot.Entities.Participant@5470194e, 3=com.example.concursinot.Entities.Participant@70a3055e, 4=com.example.concursinot.Entities.Participant@51401308})
+25 Mar 2023 20:53:58,144 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:58,209 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@70fbc049, 1=com.example.concursinot.Entities.Persoana@24951d71, 2=com.example.concursinot.Entities.Persoana@4c747548, 3=com.example.concursinot.Entities.Persoana@1d7de79d})
+25 Mar 2023 20:53:58,210 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:53:58,274 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:58,340 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@332a95f3, 1=com.example.concursinot.Entities.Persoana@3f586872, 2=com.example.concursinot.Entities.Persoana@50e994e4, 3=com.example.concursinot.Entities.Persoana@225ac06b})
+25 Mar 2023 20:53:58,684 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:53:58,828 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@45384cde, 1=com.example.concursinot.Entities.Participant@395fb7f3, 3=com.example.concursinot.Entities.Participant@258d5a88, 4=com.example.concursinot.Entities.Participant@51209fca})
+25 Mar 2023 20:53:58,828 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:58,894 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@5679678c, 1=com.example.concursinot.Entities.Persoana@12ddb29f, 2=com.example.concursinot.Entities.Persoana@5dcbe356, 3=com.example.concursinot.Entities.Persoana@8c0e9ea})
+25 Mar 2023 20:53:58,895 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:53:58,963 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:59,027 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@1598aa79, 1=com.example.concursinot.Entities.Persoana@6aaeab1f, 2=com.example.concursinot.Entities.Persoana@68fd244f, 3=com.example.concursinot.Entities.Persoana@677d0f03})
+25 Mar 2023 20:53:59,038 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:53:59,106 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@3766baf7, 1=com.example.concursinot.Entities.Participant@288f1957, 3=com.example.concursinot.Entities.Participant@29519f55, 4=com.example.concursinot.Entities.Participant@265b886b})
+25 Mar 2023 20:53:59,107 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:59,170 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@24e83f55, 1=com.example.concursinot.Entities.Persoana@74fddf3e, 2=com.example.concursinot.Entities.Persoana@51f34dc3, 3=com.example.concursinot.Entities.Persoana@2b119f46})
+25 Mar 2023 20:53:59,171 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:53:59,238 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:59,323 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@4e661fe6, 1=com.example.concursinot.Entities.Persoana@54f83d3b, 2=com.example.concursinot.Entities.Persoana@1f2eef32, 3=com.example.concursinot.Entities.Persoana@3862b83e})
+25 Mar 2023 20:53:59,332 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:53:59,402 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@468509fb, 1=com.example.concursinot.Entities.Participant@5381f5f5, 3=com.example.concursinot.Entities.Participant@3b3ed7c8, 4=com.example.concursinot.Entities.Participant@16b02bd9})
+25 Mar 2023 20:53:59,403 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:59,468 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@78142225, 1=com.example.concursinot.Entities.Persoana@24664e8f, 2=com.example.concursinot.Entities.Persoana@69ab4d5c, 3=com.example.concursinot.Entities.Persoana@7e525d53})
+25 Mar 2023 20:53:59,470 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:53:59,547 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:59,612 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@270e4db6, 1=com.example.concursinot.Entities.Persoana@318a7dee, 2=com.example.concursinot.Entities.Persoana@2f8172e, 3=com.example.concursinot.Entities.Persoana@6e2c7ae7})
+25 Mar 2023 20:53:59,623 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:53:59,698 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@3b9af969, 1=com.example.concursinot.Entities.Participant@599d96f9, 3=com.example.concursinot.Entities.Participant@1b9ebb83, 4=com.example.concursinot.Entities.Participant@16e80155})
+25 Mar 2023 20:53:59,698 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:59,787 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@7a55f350, 1=com.example.concursinot.Entities.Persoana@4fca88bd, 2=com.example.concursinot.Entities.Persoana@21667064, 3=com.example.concursinot.Entities.Persoana@77523fb4})
+25 Mar 2023 20:53:59,788 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:53:59,870 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:53:59,934 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@22489d7d, 1=com.example.concursinot.Entities.Persoana@395c76e9, 2=com.example.concursinot.Entities.Persoana@2babd4f6, 3=com.example.concursinot.Entities.Persoana@4d62f1a8})
+25 Mar 2023 20:53:59,944 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:54:00,013 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@2ba73e0c, 1=com.example.concursinot.Entities.Participant@7116feaf, 3=com.example.concursinot.Entities.Participant@4ef881f, 4=com.example.concursinot.Entities.Participant@5edad69b})
+25 Mar 2023 20:54:00,013 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:54:00,085 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@4c1fc412, 1=com.example.concursinot.Entities.Persoana@abaa8b8, 2=com.example.concursinot.Entities.Persoana@726d7680, 3=com.example.concursinot.Entities.Persoana@7a0b1858})
+25 Mar 2023 20:54:00,087 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:54:00,151 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:54:00,213 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@48867c5f, 1=com.example.concursinot.Entities.Persoana@17a6f29f, 2=com.example.concursinot.Entities.Persoana@e665f9d, 3=com.example.concursinot.Entities.Persoana@2c8d4fd1})
+25 Mar 2023 20:54:00,228 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:54:00,294 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@5712aa9b, 1=com.example.concursinot.Entities.Participant@770088ec, 3=com.example.concursinot.Entities.Participant@4ba6bb26, 4=com.example.concursinot.Entities.Participant@d139644})
+25 Mar 2023 20:54:00,295 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:54:00,359 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@4f17b30f, 1=com.example.concursinot.Entities.Persoana@3ca305e9, 2=com.example.concursinot.Entities.Persoana@4222f6d0, 3=com.example.concursinot.Entities.Persoana@5392f966})
+25 Mar 2023 20:54:00,360 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:54:00,426 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:54:00,594 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@216fa7d0, 1=com.example.concursinot.Entities.Persoana@5c77259, 2=com.example.concursinot.Entities.Persoana@50868047, 3=com.example.concursinot.Entities.Persoana@149b1af8})
+25 Mar 2023 20:54:00,604 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:54:00,671 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@48166e9c, 1=com.example.concursinot.Entities.Participant@76fd987d, 3=com.example.concursinot.Entities.Participant@121daa5d, 4=com.example.concursinot.Entities.Participant@5e9d3e3c})
+25 Mar 2023 20:54:00,671 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:54:00,768 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@2584c9fd, 1=com.example.concursinot.Entities.Persoana@3f209340, 2=com.example.concursinot.Entities.Persoana@409099bb, 3=com.example.concursinot.Entities.Persoana@77cb334b})
+25 Mar 2023 20:54:00,769 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:54:00,850 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:54:00,913 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@7483c76e, 1=com.example.concursinot.Entities.Persoana@4f02e02d, 2=com.example.concursinot.Entities.Persoana@b1bf537, 3=com.example.concursinot.Entities.Persoana@25e4ce74})
+25 Mar 2023 20:54:01,994 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:54:02,061 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@430baac5, 1=com.example.concursinot.Entities.Participant@401f5bbe, 3=com.example.concursinot.Entities.Participant@39f880f1, 4=com.example.concursinot.Entities.Participant@4452174b})
+25 Mar 2023 20:54:02,061 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:54:02,168 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@5a11c086, 1=com.example.concursinot.Entities.Persoana@60e9a2d1, 2=com.example.concursinot.Entities.Persoana@1d6b5935, 3=com.example.concursinot.Entities.Persoana@4957fd9c})
+25 Mar 2023 20:54:02,169 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:54:02,231 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:54:02,331 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@1d9601c0, 1=com.example.concursinot.Entities.Persoana@3044d789, 2=com.example.concursinot.Entities.Persoana@77a18245, 3=com.example.concursinot.Entities.Persoana@16c2a30})
+25 Mar 2023 20:54:04,052 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:54:04,118 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@2c59b3dc, 1=com.example.concursinot.Entities.Participant@3ab7c141, 3=com.example.concursinot.Entities.Participant@417fcff8, 4=com.example.concursinot.Entities.Participant@2122404d})
+25 Mar 2023 20:54:04,118 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:54:04,182 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@4084c0e6, 1=com.example.concursinot.Entities.Persoana@443dac7e, 2=com.example.concursinot.Entities.Persoana@7b02bb0e, 3=com.example.concursinot.Entities.Persoana@4891ac0b})
+25 Mar 2023 20:54:04,183 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:54:04,247 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:54:04,424 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@2ef4d60f, 1=com.example.concursinot.Entities.Persoana@783c1f3, 2=com.example.concursinot.Entities.Persoana@69b7c0c6, 3=com.example.concursinot.Entities.Persoana@2c83c80f})
+25 Mar 2023 20:54:04,843 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:54:04,908 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@24cf373e, 1=com.example.concursinot.Entities.Participant@3ddaf60d, 3=com.example.concursinot.Entities.Participant@6abcb080, 4=com.example.concursinot.Entities.Participant@58cdde68})
+25 Mar 2023 20:54:04,908 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:54:04,972 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@5666488, 1=com.example.concursinot.Entities.Persoana@6fe680b7, 2=com.example.concursinot.Entities.Persoana@60d1057b, 3=com.example.concursinot.Entities.Persoana@56d9a997})
+25 Mar 2023 20:54:04,973 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:54:05,078 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:54:05,145 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@602dc5e0, 1=com.example.concursinot.Entities.Persoana@3b95026a, 2=com.example.concursinot.Entities.Persoana@538732be, 3=com.example.concursinot.Entities.Persoana@4889bc48})
+25 Mar 2023 20:54:51,060 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:54:51,066 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:54:51,068 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 20:54:59,054 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 20:54:59,131 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:54:59,205 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@f4daadb, 1=com.example.concursinot.Entities.Persoana@de584bc, 2=com.example.concursinot.Entities.Persoana@4b46d06f, 3=com.example.concursinot.Entities.Persoana@1075c9e5})
+25 Mar 2023 20:55:06,811 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:55:06,879 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({})
+25 Mar 2023 20:55:06,879 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:55:06,944 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@44b2945e, 1=com.example.concursinot.Entities.Persoana@6ce17f99, 2=com.example.concursinot.Entities.Persoana@be4a939, 3=com.example.concursinot.Entities.Persoana@6f0acb0c})
+25 Mar 2023 20:55:10,678 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 20:55:10,746 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@29ac7297, 1=com.example.concursinot.Entities.Participant@2345c4a4, 3=com.example.concursinot.Entities.Participant@5acbe276, 4=com.example.concursinot.Entities.Participant@67ee424})
+25 Mar 2023 20:55:10,747 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 20:55:10,812 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@4c8c16b6, 1=com.example.concursinot.Entities.Persoana@41e18b67, 2=com.example.concursinot.Entities.Persoana@443c197f, 3=com.example.concursinot.Entities.Persoana@35929a18})
+25 Mar 2023 21:03:33,707 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 21:03:33,713 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 21:03:33,715 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 21:03:47,019 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 21:03:47,088 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 21:03:47,161 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@1075c9e5, 1=com.example.concursinot.Entities.Persoana@720ca242, 2=com.example.concursinot.Entities.Persoana@53ed08db, 3=com.example.concursinot.Entities.Persoana@2ed56f61})
+25 Mar 2023 21:03:55,223 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 21:03:56,320 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 21:03:56,389 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@1e1565ff, 1=com.example.concursinot.Entities.Persoana@40c8c396, 2=com.example.concursinot.Entities.Persoana@688b0a98, 3=com.example.concursinot.Entities.Persoana@663f6b36})
+25 Mar 2023 21:04:00,615 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 21:04:01,109 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 21:04:01,179 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@11a8df20, 1=com.example.concursinot.Entities.Persoana@5ce6a9b2, 2=com.example.concursinot.Entities.Persoana@52213f82, 3=com.example.concursinot.Entities.Persoana@198512d8})
+25 Mar 2023 21:04:03,895 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 21:04:03,961 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 21:04:04,027 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@4e838f17, 1=com.example.concursinot.Entities.Persoana@27c1044c, 2=com.example.concursinot.Entities.Persoana@7c47f219, 3=com.example.concursinot.Entities.Persoana@4de53c9b})
+25 Mar 2023 21:04:08,353 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+25 Mar 2023 21:04:08,421 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({})
+25 Mar 2023 21:04:08,421 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 21:04:08,487 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@6b1cf09a, 1=com.example.concursinot.Entities.Persoana@d2bfb99, 2=com.example.concursinot.Entities.Persoana@742c2da7, 3=com.example.concursinot.Entities.Persoana@3bb95b48})
+25 Mar 2023 21:04:09,507 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 21:04:09,573 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 21:04:09,675 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@2f19cd76, 1=com.example.concursinot.Entities.Persoana@79fad04a, 2=com.example.concursinot.Entities.Persoana@575524a5, 3=com.example.concursinot.Entities.Persoana@3eda583c})
+25 Mar 2023 21:22:50,726 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 21:22:50,732 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 21:22:50,734 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 21:23:36,409 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 21:23:36,415 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 21:23:36,417 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 21:23:44,812 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 21:23:44,894 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 21:23:44,965 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@4bc06d45, 1=com.example.concursinot.Entities.Persoana@45eb8cfc, 2=com.example.concursinot.Entities.Persoana@27122e21, 3=com.example.concursinot.Entities.Persoana@7ca6fcca})
+25 Mar 2023 21:24:11,949 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 21:24:11,955 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 21:24:11,957 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 21:24:20,157 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 21:24:20,222 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 21:24:20,289 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@393fb344, 1=com.example.concursinot.Entities.Persoana@1200391f, 2=com.example.concursinot.Entities.Persoana@236f571f, 3=com.example.concursinot.Entities.Persoana@31033e19})
+25 Mar 2023 21:24:52,152 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 21:24:52,158 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 21:24:52,160 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 21:25:01,388 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 21:25:01,454 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 21:25:01,621 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@6347a906, 1=com.example.concursinot.Entities.Persoana@1c559497, 2=com.example.concursinot.Entities.Persoana@38c34f4d, 3=com.example.concursinot.Entities.Persoana@917159d})
+25 Mar 2023 21:31:28,680 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 21:31:28,686 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 21:31:28,688 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+25 Mar 2023 21:31:42,051 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+25 Mar 2023 21:31:42,119 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+25 Mar 2023 21:31:42,185 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@430c4bc0, 1=com.example.concursinot.Entities.Persoana@16f6f63f, 2=com.example.concursinot.Entities.Persoana@634dad0c, 3=com.example.concursinot.Entities.Persoana@4bd539d1})
+27 Mar 2023 16:22:59,294 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+27 Mar 2023 16:22:59,301 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+27 Mar 2023 16:22:59,303 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+27 Mar 2023 16:23:29,379 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+27 Mar 2023 16:23:29,445 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+27 Mar 2023 16:23:29,579 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@669c5455, 1=com.example.concursinot.Entities.Persoana@58f1e90f, 2=com.example.concursinot.Entities.Persoana@727b7fc1, 3=com.example.concursinot.Entities.Persoana@5ac41335})
+27 Mar 2023 16:41:18,054 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+27 Mar 2023 16:41:18,060 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+27 Mar 2023 16:41:18,063 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+27 Mar 2023 16:42:26,279 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+27 Mar 2023 16:42:26,342 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+27 Mar 2023 16:42:26,466 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@69d304ec, 1=com.example.concursinot.Entities.Persoana@294c8f25, 2=com.example.concursinot.Entities.Persoana@28ffba04, 3=com.example.concursinot.Entities.Persoana@7ff157ea})
+27 Mar 2023 16:43:13,365 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 146 findOneByNumeAndVarsta - Enter
+27 Mar 2023 16:43:13,628 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 86 save - com.example.concursinot.Entities.Persoana@519af015
+27 Mar 2023 16:43:13,779 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 101 save - Exit
+27 Mar 2023 16:43:13,844 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 91 save - Enter
+27 Mar 2023 16:43:13,933 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 107 save - Exit
+27 Mar 2023 16:43:15,142 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+27 Mar 2023 16:43:15,304 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+27 Mar 2023 16:43:15,367 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@73be3dab, 1=com.example.concursinot.Entities.Persoana@1c2018f0, 2=com.example.concursinot.Entities.Persoana@39a7d345, 3=com.example.concursinot.Entities.Persoana@3fbb863c, 4=com.example.concursinot.Entities.Persoana@3deaa705})
+27 Mar 2023 16:43:26,620 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 146 findOneByNumeAndVarsta - Enter
+27 Mar 2023 16:43:26,788 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 159 findOneByNumeAndVarsta - Exit
+27 Mar 2023 16:43:26,854 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 91 save - Enter
+27 Mar 2023 16:43:26,918 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 107 save - Exit
+27 Mar 2023 16:43:28,311 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+27 Mar 2023 16:43:28,371 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+27 Mar 2023 16:43:28,431 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@42ea5b3, 1=com.example.concursinot.Entities.Persoana@7e5b6898, 2=com.example.concursinot.Entities.Persoana@57d24c63, 3=com.example.concursinot.Entities.Persoana@3d45e878, 4=com.example.concursinot.Entities.Persoana@4c37c15e})
+27 Mar 2023 16:44:13,548 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+27 Mar 2023 16:44:13,738 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@623ceb92, 1=com.example.concursinot.Entities.Participant@bb5d67a, 3=com.example.concursinot.Entities.Participant@479663df, 4=com.example.concursinot.Entities.Participant@444683aa})
+27 Mar 2023 16:44:13,739 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+27 Mar 2023 16:44:13,801 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@412380cb, 1=com.example.concursinot.Entities.Persoana@64809893, 2=com.example.concursinot.Entities.Persoana@107c8747, 3=com.example.concursinot.Entities.Persoana@60d70d31, 4=com.example.concursinot.Entities.Persoana@3d2fec38})
+27 Mar 2023 16:44:25,247 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+27 Mar 2023 16:44:25,309 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+27 Mar 2023 16:44:25,369 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@5d0baf0e, 1=com.example.concursinot.Entities.Persoana@29b95d57, 2=com.example.concursinot.Entities.Persoana@715f73d4, 3=com.example.concursinot.Entities.Persoana@33530feb, 4=com.example.concursinot.Entities.Persoana@3320b550})
+28 Mar 2023 01:45:57,430 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+28 Mar 2023 01:45:57,438 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+28 Mar 2023 01:45:57,440 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+28 Mar 2023 01:46:14,355 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+28 Mar 2023 01:46:14,419 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+28 Mar 2023 01:46:14,482 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@393fb344, 1=com.example.concursinot.Entities.Persoana@1200391f, 2=com.example.concursinot.Entities.Persoana@236f571f, 3=com.example.concursinot.Entities.Persoana@31033e19, 4=com.example.concursinot.Entities.Persoana@75e20eee})
+28 Mar 2023 01:48:19,048 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+28 Mar 2023 01:48:19,353 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({5=com.example.concursinot.Entities.Participant@16419664, 6=com.example.concursinot.Entities.Participant@6e4a69fc})
+28 Mar 2023 01:48:19,354 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+28 Mar 2023 01:48:19,418 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@3c73b45e, 1=com.example.concursinot.Entities.Persoana@148c3b37, 2=com.example.concursinot.Entities.Persoana@e647d74, 3=com.example.concursinot.Entities.Persoana@335cf0cd, 4=com.example.concursinot.Entities.Persoana@12ac63bc})
+28 Mar 2023 01:48:26,368 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 155 findAllByCompetition - Enter
+28 Mar 2023 01:48:26,434 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 179 findAllByCompetition - Exit with({0=com.example.concursinot.Entities.Participant@202b103a, 1=com.example.concursinot.Entities.Participant@73e3676b, 3=com.example.concursinot.Entities.Participant@2f2b092d, 4=com.example.concursinot.Entities.Participant@6d284075})
+28 Mar 2023 01:48:26,434 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+28 Mar 2023 01:48:26,498 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@15fa272a, 1=com.example.concursinot.Entities.Persoana@7d4ac2c1, 2=com.example.concursinot.Entities.Persoana@a5fce24, 3=com.example.concursinot.Entities.Persoana@255b0cf2, 4=com.example.concursinot.Entities.Persoana@615cbc04})
+01 Apr 2023 15:10:34,502 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+01 Apr 2023 15:10:34,510 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+01 Apr 2023 15:10:34,513 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+01 Apr 2023 15:11:00,608 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+01 Apr 2023 15:11:00,751 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+01 Apr 2023 15:11:01,089 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@5af240a6, 1=com.example.concursinot.Entities.Persoana@49f331a9, 2=com.example.concursinot.Entities.Persoana@21462f8f, 3=com.example.concursinot.Entities.Persoana@62fcd895, 4=com.example.concursinot.Entities.Persoana@2a43431c})
+10 Apr 2023 09:43:14,754 INFO  com.example.concursinot.Repository.Database.AngajatiDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+10 Apr 2023 09:43:14,761 INFO  com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 22 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+10 Apr 2023 09:43:14,764 INFO  com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+10 Apr 2023 09:43:27,147 TRACE com.example.concursinot.Repository.Database.ParticipantiDatabaseRepository 62 findAll - Enter
+10 Apr 2023 09:43:27,213 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 59 findAll - Enter
+10 Apr 2023 09:43:27,307 TRACE com.example.concursinot.Repository.Database.PersoaneDatabaseRepository 78 findAll - Exit with({0=com.example.concursinot.Entities.Persoana@430c4bc0, 1=com.example.concursinot.Entities.Persoana@16f6f63f, 2=com.example.concursinot.Entities.Persoana@634dad0c, 3=com.example.concursinot.Entities.Persoana@4bd539d1, 4=com.example.concursinot.Entities.Persoana@6aa62920})
+23 Jun 2023 00:19:05,057 INFO  Marius com.example.persistence.Database.AngajatiDatabaseRepository 31 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, server.port=55555, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+23 Jun 2023 00:19:05,066 INFO  Marius com.example.persistence.Database.PersoaneDatabaseRepository 25 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, server.port=55555, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+23 Jun 2023 00:19:05,068 INFO  Marius com.example.persistence.Database.ParticipantiDatabaseRepository 27 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, server.port=55555, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+23 Jun 2023 00:19:28,352 TRACE Marius com.example.persistence.Database.AngajatiDatabaseRepository 142 findOneByEmailAndPassword - Enter
+23 Jun 2023 00:19:28,354 INFO  Marius com.example.persistence.Database.AngajatiDatabaseRepository 143 findOneByEmailAndPassword - ok
+23 Jun 2023 00:19:32,423 TRACE Marius com.example.persistence.Database.ParticipantiDatabaseRepository 66 findAll - Enter
+23 Jun 2023 00:19:32,493 TRACE Marius com.example.persistence.Database.PersoaneDatabaseRepository 62 findAll - Enter
+23 Jun 2023 00:19:32,563 TRACE Marius com.example.persistence.Database.PersoaneDatabaseRepository 81 findAll - Exit with({0=com.example.model.Persoana@3d0ba1a7, 1=com.example.model.Persoana@3cd5fdb5, 2=com.example.model.Persoana@6000e311, 3=com.example.model.Persoana@4b403dcd, 4=com.example.model.Persoana@2b26ab9b, 5=com.example.model.Persoana@388dc31f, 6=com.example.model.Persoana@5f72a774, 7=com.example.model.Persoana@15965702})
+23 Jun 2023 00:55:20,398 INFO  Marius com.example.persistence.Database.AngajatiDatabaseRepository 31 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, server.port=55555, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+23 Jun 2023 00:55:20,405 INFO  Marius com.example.persistence.Database.PersoaneDatabaseRepository 25 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, server.port=55555, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+23 Jun 2023 00:55:20,408 INFO  Marius com.example.persistence.Database.ParticipantiDatabaseRepository 27 <init> - Initializing CarsDBRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, server.port=55555, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+23 Jun 2023 00:55:44,657 TRACE Marius com.example.persistence.Database.AngajatiDatabaseRepository 142 findOneByEmailAndPassword - Enter
+23 Jun 2023 00:55:44,659 INFO  Marius com.example.persistence.Database.AngajatiDatabaseRepository 143 findOneByEmailAndPassword - ok
+23 Jun 2023 00:55:49,232 TRACE Marius com.example.persistence.Database.ParticipantiDatabaseRepository 66 findAll - Enter
+23 Jun 2023 00:55:49,412 TRACE Marius com.example.persistence.Database.PersoaneDatabaseRepository 62 findAll - Enter
+23 Jun 2023 00:55:49,481 TRACE Marius com.example.persistence.Database.PersoaneDatabaseRepository 81 findAll - Exit with({0=com.example.model.Persoana@451677e1, 1=com.example.model.Persoana@75f37e03, 2=com.example.model.Persoana@6aeeaa6, 3=com.example.model.Persoana@217be76d, 4=com.example.model.Persoana@572435dc, 5=com.example.model.Persoana@39c94a5d, 6=com.example.model.Persoana@48436c18, 7=com.example.model.Persoana@36fdaaf2})
+23 Jun 2023 01:08:29,339 INFO  com.example.persistence.Database.AngajatiDatabaseRepository 31 <init> - Initializing AngajatiRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, server.port=55555, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+23 Jun 2023 01:08:29,345 INFO  com.example.persistence.Database.PersoaneDatabaseRepository 25 <init> - Initializing PersoaneRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, server.port=55555, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+23 Jun 2023 01:08:29,348 INFO  com.example.persistence.Database.ParticipantiDatabaseRepository 27 <init> - Initializing ParticipantiRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, server.port=55555, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+23 Jun 2023 01:09:03,944 TRACE com.example.persistence.Database.AngajatiDatabaseRepository 141 findOneByEmailAndPassword - Enter
+23 Jun 2023 01:09:03,947 INFO  com.example.persistence.Database.AngajatiDatabaseRepository 142 findOneByEmailAndPassword - ok
+23 Jun 2023 01:09:04,871 TRACE com.example.networking.rpcprotocol.ClientRpcWorker 197 sendResponse - sending response : Response{type='OK', data='true'}
+23 Jun 2023 01:09:05,878 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:05,978 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:06,052 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:06,128 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:06,205 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:06,278 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:06,352 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:06,428 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:06,497 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:06,568 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:06,637 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:06,707 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:06,777 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:06,846 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:06,915 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:06,984 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:07,053 TRACE com.example.networking.rpcprotocol.ClientRpcWorker 197 sendResponse - sending response : Response{type='OK', data='[0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0]'}
+23 Jun 2023 01:09:08,066 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 66 findAll - Enter
+23 Jun 2023 01:09:08,138 TRACE com.example.persistence.Database.PersoaneDatabaseRepository 61 findAll - Enter
+23 Jun 2023 01:09:08,308 TRACE com.example.persistence.Database.PersoaneDatabaseRepository 80 findAll - Exit with({0=com.example.model.Persoana@7eb6a644, 1=com.example.model.Persoana@202b4b94, 2=com.example.model.Persoana@6c3c38ef, 3=com.example.model.Persoana@1e7654c6, 4=com.example.model.Persoana@553945ca, 5=com.example.model.Persoana@2f34d312, 6=com.example.model.Persoana@22426d5b, 7=com.example.model.Persoana@ebecdb1})
+23 Jun 2023 01:09:08,309 TRACE com.example.networking.rpcprotocol.ClientRpcWorker 197 sendResponse - sending response : Response{type='OK', data='[com.example.model.ParticipantDTO@51212ee7, com.example.model.ParticipantDTO@7645f16c, com.example.model.ParticipantDTO@77c92129, com.example.model.ParticipantDTO@bd6f15f, com.example.model.ParticipantDTO@53d8a0d4, com.example.model.ParticipantDTO@acfe552, com.example.model.ParticipantDTO@34b14d4b]'}
+23 Jun 2023 01:09:52,092 TRACE com.example.persistence.Database.PersoaneDatabaseRepository 148 findOneByNumeAndVarsta - Enter
+23 Jun 2023 01:09:52,239 TRACE com.example.persistence.Database.PersoaneDatabaseRepository 161 findOneByNumeAndVarsta - Exit
+23 Jun 2023 01:09:52,239 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 215 getNewId - Enter
+23 Jun 2023 01:09:52,418 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 95 save - Enter
+23 Jun 2023 01:09:52,552 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 112 save - Exit
+23 Jun 2023 01:09:52,554 TRACE com.example.networking.rpcprotocol.ClientRpcWorker 197 sendResponse - sending response : Response{type='OK', data='null'}
+23 Jun 2023 01:09:52,555 INFO  com.example.networking.rpcprotocol.ClientRpcWorker 207 participantInscris - Participant added
+23 Jun 2023 01:09:52,556 TRACE com.example.networking.rpcprotocol.ClientRpcWorker 197 sendResponse - sending response : Response{type='UPDATE', data='null'}
+23 Jun 2023 01:09:53,563 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 66 findAll - Enter
+23 Jun 2023 01:09:53,651 TRACE com.example.persistence.Database.PersoaneDatabaseRepository 61 findAll - Enter
+23 Jun 2023 01:09:53,718 TRACE com.example.persistence.Database.PersoaneDatabaseRepository 80 findAll - Exit with({0=com.example.model.Persoana@5e3b6ddb, 1=com.example.model.Persoana@25d11cf, 2=com.example.model.Persoana@41e04673, 3=com.example.model.Persoana@6e45eca4, 4=com.example.model.Persoana@6b951102, 5=com.example.model.Persoana@12ca6d6, 6=com.example.model.Persoana@42bcab5e, 7=com.example.model.Persoana@35d4f61})
+23 Jun 2023 01:09:53,718 TRACE com.example.networking.rpcprotocol.ClientRpcWorker 197 sendResponse - sending response : Response{type='OK', data='[com.example.model.ParticipantDTO@40834309, com.example.model.ParticipantDTO@24fd47d9, com.example.model.ParticipantDTO@3bcfe43, com.example.model.ParticipantDTO@6af38f12, com.example.model.ParticipantDTO@3032024e, com.example.model.ParticipantDTO@7e3f581e, com.example.model.ParticipantDTO@1a15ff7c, com.example.model.ParticipantDTO@6ce86833]'}
+23 Jun 2023 01:09:54,731 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:54,803 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:54,870 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:54,938 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:55,006 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:55,073 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:55,251 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:55,318 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:55,388 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:55,456 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:55,524 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:55,692 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:55,760 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:55,831 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:55,900 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:55,968 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+23 Jun 2023 01:09:56,038 TRACE com.example.networking.rpcprotocol.ClientRpcWorker 197 sendResponse - sending response : Response{type='OK', data='[1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0]'}
+21 Jul 2023 11:45:21,596 INFO  com.example.persistence.Database.AngajatiDatabaseRepository 31 <init> - Initializing AngajatiRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, server.port=55555, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+21 Jul 2023 11:45:21,603 INFO  com.example.persistence.Database.PersoaneDatabaseRepository 25 <init> - Initializing PersoaneRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, server.port=55555, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+21 Jul 2023 11:45:21,605 INFO  com.example.persistence.Database.ParticipantiDatabaseRepository 27 <init> - Initializing ParticipantiRepository with properties: {jdbc.password=aezakmi, jdbc.username=postgres, server.port=55555, jdbc.url=jdbc:postgresql://localhost:5432/concurs_inot} 
+21 Jul 2023 11:46:00,678 TRACE com.example.persistence.Database.AngajatiDatabaseRepository 141 findOneByEmailAndPassword - Enter
+21 Jul 2023 11:46:00,679 INFO  com.example.persistence.Database.AngajatiDatabaseRepository 142 findOneByEmailAndPassword - ok
+21 Jul 2023 11:46:06,735 TRACE com.example.networking.rpcprotocol.ClientRpcWorker 197 sendResponse - sending response : Response{type='OK', data='false'}
+21 Jul 2023 11:46:09,440 TRACE com.example.persistence.Database.AngajatiDatabaseRepository 141 findOneByEmailAndPassword - Enter
+21 Jul 2023 11:46:09,441 INFO  com.example.persistence.Database.AngajatiDatabaseRepository 142 findOneByEmailAndPassword - ok
+21 Jul 2023 11:46:09,633 TRACE com.example.networking.rpcprotocol.ClientRpcWorker 197 sendResponse - sending response : Response{type='OK', data='true'}
+21 Jul 2023 11:46:10,640 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+21 Jul 2023 11:46:10,977 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+21 Jul 2023 11:46:11,049 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+21 Jul 2023 11:46:11,122 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+21 Jul 2023 11:46:11,195 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+21 Jul 2023 11:46:11,268 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+21 Jul 2023 11:46:11,338 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+21 Jul 2023 11:46:11,406 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+21 Jul 2023 11:46:11,476 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+21 Jul 2023 11:46:11,544 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+21 Jul 2023 11:46:11,611 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+21 Jul 2023 11:46:11,716 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+21 Jul 2023 11:46:11,784 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+21 Jul 2023 11:46:11,851 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+21 Jul 2023 11:46:11,920 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+21 Jul 2023 11:46:11,987 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 192 getNumarParticipantiDupaProba - Enter
+21 Jul 2023 11:46:12,059 TRACE com.example.networking.rpcprotocol.ClientRpcWorker 197 sendResponse - sending response : Response{type='OK', data='[1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0]'}
+21 Jul 2023 11:46:13,080 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 66 findAll - Enter
+21 Jul 2023 11:46:13,183 TRACE com.example.persistence.Database.PersoaneDatabaseRepository 61 findAll - Enter
+21 Jul 2023 11:46:13,281 TRACE com.example.persistence.Database.PersoaneDatabaseRepository 80 findAll - Exit with({0=com.example.model.Persoana@4c00a49c, 1=com.example.model.Persoana@a3f4ffe, 2=com.example.model.Persoana@16234e7e, 3=com.example.model.Persoana@2f53ef1b, 4=com.example.model.Persoana@66be8a29, 5=com.example.model.Persoana@160e69bf, 6=com.example.model.Persoana@1ad285be, 7=com.example.model.Persoana@2a498ac8})
+21 Jul 2023 11:46:13,283 TRACE com.example.networking.rpcprotocol.ClientRpcWorker 197 sendResponse - sending response : Response{type='OK', data='[com.example.model.ParticipantDTO@351a2945, com.example.model.ParticipantDTO@28207a7e, com.example.model.ParticipantDTO@66c6a0cf, com.example.model.ParticipantDTO@2a58d092, com.example.model.ParticipantDTO@4eec849d, com.example.model.ParticipantDTO@65b4e4b4, com.example.model.ParticipantDTO@3627f015, com.example.model.ParticipantDTO@5a176a03]'}
+21 Jul 2023 11:46:23,488 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 160 findAllByCompetition - Enter
+21 Jul 2023 11:46:23,727 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 184 findAllByCompetition - Exit with({17=com.example.model.Participant@4ec07136, 18=com.example.model.Participant@253d6b68})
+21 Jul 2023 11:46:23,727 TRACE com.example.persistence.Database.PersoaneDatabaseRepository 61 findAll - Enter
+21 Jul 2023 11:46:23,812 TRACE com.example.persistence.Database.PersoaneDatabaseRepository 80 findAll - Exit with({0=com.example.model.Persoana@23d9238b, 1=com.example.model.Persoana@fd61211, 2=com.example.model.Persoana@42528b1c, 3=com.example.model.Persoana@c7ace15, 4=com.example.model.Persoana@66d5716a, 5=com.example.model.Persoana@59aca13b, 6=com.example.model.Persoana@f70cb79, 7=com.example.model.Persoana@55a0b6e4})
+21 Jul 2023 11:46:23,812 TRACE com.example.networking.rpcprotocol.ClientRpcWorker 197 sendResponse - sending response : Response{type='OK', data='[com.example.model.ParticipantDTO@1833c31b, com.example.model.ParticipantDTO@24aa0c5f]'}
+21 Jul 2023 11:46:41,826 TRACE com.example.persistence.Database.ParticipantiDatabaseRepository 66 findAll - Enter
+21 Jul 2023 11:46:42,001 TRACE com.example.persistence.Database.PersoaneDatabaseRepository 61 findAll - Enter
+21 Jul 2023 11:46:42,074 TRACE com.example.persistence.Database.PersoaneDatabaseRepository 80 findAll - Exit with({0=com.example.model.Persoana@fdea81d, 1=com.example.model.Persoana@633f14e6, 2=com.example.model.Persoana@6353d8ce, 3=com.example.model.Persoana@c00b3b5, 4=com.example.model.Persoana@76647c68, 5=com.example.model.Persoana@6de7ce66, 6=com.example.model.Persoana@108ffebc, 7=com.example.model.Persoana@199b6a03})
+21 Jul 2023 11:46:42,074 TRACE com.example.networking.rpcprotocol.ClientRpcWorker 197 sendResponse - sending response : Response{type='OK', data='[com.example.model.ParticipantDTO@4c49d264, com.example.model.ParticipantDTO@1f8eb175, com.example.model.ParticipantDTO@701bd626, com.example.model.ParticipantDTO@32127154, com.example.model.ParticipantDTO@30ca5f80, com.example.model.ParticipantDTO@5aa545f5, com.example.model.ParticipantDTO@74210261, com.example.model.ParticipantDTO@55184560]'}
